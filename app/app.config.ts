@@ -29,67 +29,10 @@ export default defineAppConfig({
       title: 'MPSW',
       showTitle: true,
       logo: {
-        light: '/logo.svg',
-        dark: '/logo-dark.svg',
+        light: '/DCS_circular.png',
       },
       darkModeToggle: true,
-      nav: [{
-        title: 'Documentación',
-        links: [{
-          title: 'Getting Started',
-          to: '/getting-started',
-          description: 'Start building your document with shadcn-docs-nuxt',
-          icon: 'lucide:rocket',
-        }, {
-          title: 'Components',
-          to: '/components/prose',
-          description: 'Explore available UI components and usage examples.',
-          icon: 'lucide:box',
-        }, {
-          title: 'API',
-          to: '/api/configuration/shadcn-docs',
-          description: 'Discover the configurations and exposed APIs.',
-          target: '_self',
-          icon: 'lucide:code',
-        }],
-      }, {
-        title: 'Credits',
-        links: [{
-          title: 'shadcn-ui',
-          to: 'https://ui.shadcn.com/',
-          description: 'For the beautiful component design & docs design',
-          target: '_blank',
-        }, {
-          title: 'shadcn-vue',
-          to: 'https://www.shadcn-vue.com/',
-          description: 'For the vue port of shadcn-ui & some docs component source',
-          target: '_blank',
-        }, {
-          title: 'Docus',
-          to: 'https://docus.dev/',
-          description: 'For inspiration & some docs component source',
-          target: '_blank',
-        }, {
-          title: 'Nuxt Content',
-          to: 'https://content.nuxt.com/',
-          description: 'Content made easy for Vue Developers',
-          target: '_blank',
-        }],
-      }, {
-        title: 'Use This Template',
-        to: '/getting-started/installation',
-        target: '_self',
-        showLinkIcon: true,
-      }],
-      links: [{
-        icon: 'lucide:coffee',
-        to: 'https://ko-fi.com/ztl_uwu',
-        target: '_blank',
-      }, {
-        icon: 'lucide:github',
-        to: 'https://github.com/yurier98/MPSW',
-        target: '_blank',
-      }],
+
     },
     aside: {
       useLevel: true,
@@ -102,13 +45,6 @@ export default defineAppConfig({
       showTitle: true,
       codeCopyToast: true,
       codeCopyIcon: 'lucide:copy',
-      editLink: {
-        enable: true,
-        pattern: 'https://github.com/yurier98/MPSW/edit/main/content/:path',
-        text: 'Editar esta página',
-        icon: 'lucide:square-pen',
-        placement: ['docsFooter', 'toc'],
-      },
       backToTop: true,
       codeIcon: {
         'package.json': 'vscode-icons:file-type-node',
@@ -181,19 +117,7 @@ export default defineAppConfig({
       enableInMobile: false,
       enableInHomepage: false,
       title: 'En esta página',
-      links: [{
-        title: 'Marcar como estrella en GitHub',
-        icon: 'lucide:star',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
-        target: '_blank',
-        showLinkIcon: true,
-      }, {
-        title: 'Crear incidencias',
-        icon: 'lucide:circle-dot',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
-        target: '_blank',
-        showLinkIcon: true,
-      }],
+
       carbonAds: {
         enable: true,
         disableInDev: true,
