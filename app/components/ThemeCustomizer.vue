@@ -2,10 +2,10 @@
   <div class="grid gap-6">
     <div class="grid space-y-1">
       <h1 class="text-lg font-semibold text-foreground">
-        Customize
+        Personalizar
       </h1>
       <p class="text-sm text-muted-foreground">
-        Pick a style and color for the docs.
+        Elige un estilo y un color.
       </p>
     </div>
     <div class="space-y-1.5">
@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="space-y-1.5">
-      <UiLabel>Radius</UiLabel>
+      <UiLabel>Radio</UiLabel>
       <div class="grid grid-cols-5 gap-2">
         <template v-for="r in RADII" :key="r">
           <UiButton
@@ -42,7 +42,7 @@
       </div>
     </div>
     <div v-if="darkModeToggle" class="space-y-1.5">
-      <UiLabel>Theme</UiLabel>
+      <UiLabel>Tema</UiLabel>
       <div class="grid grid-cols-3 gap-2">
         <UiButton
           class="justify-center gap-2"
@@ -51,7 +51,7 @@
           @click="colorMode.preference = 'light'"
         >
           <Icon name="lucide:sun" size="16" />
-          <span class="text-xs capitalize">Light</span>
+          <span class="text-xs capitalize">Claro</span>
         </UiButton>
         <UiButton
           class="justify-center gap-2"
@@ -60,7 +60,7 @@
           @click="colorMode.preference = 'dark'"
         >
           <Icon name="lucide:moon" size="16" />
-          <span class="text-xs capitalize">Dark</span>
+          <span class="text-xs capitalize">Oscuro</span>
         </UiButton>
         <UiButton
           class="justify-center gap-2"
@@ -69,7 +69,7 @@
           @click="colorMode.preference = 'system'"
         >
           <Icon name="lucide:monitor" size="16" />
-          <span class="text-xs capitalize">System</span>
+          <span class="text-xs capitalize">Sistema</span>
         </UiButton>
       </div>
     </div>
