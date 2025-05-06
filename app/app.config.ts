@@ -29,7 +29,7 @@ export default defineAppConfig({
       title: 'MPSW',
       showTitle: true,
       logo: {
-        light: 'DCS_circular.png',
+        light: '/DCS_circular.png',
       },
       darkModeToggle: true,
 

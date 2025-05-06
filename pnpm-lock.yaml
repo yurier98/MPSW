@@ -10,10 +10,7 @@ importers:
     dependencies:
       '@iconify-json/lucide':
         specifier: ^1.2.31
-        version: 1.2.40
-      '@iconify-json/uiw':
-        specifier: ^1.2.1
-        version: 1.2.1
+        version: 1.2.31
       '@iconify-json/vscode-icons':
         specifier: ^1.2.16
         version: 1.2.20
@@ -736,8 +733,8 @@ packages:
   '@iconify-json/uiw@1.2.1':
     resolution: {integrity: sha512-q1FyY9N2hkKeisjkHYVoSLv8E9Gg5oHxcVo4VPy4EY7e0RVJAH93dnHyCkTcU4OXp8ExZcgzuevcdldnLQBFjA==}
 
-  '@iconify-json/vscode-icons@1.2.20':
-    resolution: {integrity: sha512-xuWqr/SrckUoFi6kpSH/NrNGK+CuZ8LNnBY8qkRdkQvHmhirXvwsLfTKHoFndTsOlxfsHahlOLVCCb523kdqMA==}
+  '@iconify-json/vscode-icons@1.2.16':
+    resolution: {integrity: sha512-hstc2yVq2UJ6v6FrgjftzXRvphGZBsKxvSeXoFLP1Hgx89TPZKrGE5SV6vqsoeIlLYaQ7OZbXmAoVGroTfGmVQ==}
 
   '@iconify/collections@1.0.545':
     resolution: {integrity: sha512-LQprSmX6Wp69insYYSHM6bj5ZF4gT4ZwoqX9UXdCxGxRMzRpaNzQZUZ++2kP0wnOg3lX2ocMla8ns8oRPzxO2g==}
@@ -7054,7 +7051,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/uiw@1.2.1':
+  '@iconify-json/vscode-icons@1.2.16':
     dependencies:
       '@iconify/types': 2.0.0
 
