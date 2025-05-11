@@ -26,10 +26,11 @@ export default defineAppConfig({
       border: true,
     },
     header: {
-      title: 'MPSW',
+      title: 'Mejora de Procesos de Software',
       showTitle: true,
       logo: {
-        light: '/DCS_circular.png',
+        light: '/DCSW2.png',
+        dark: '/DCSW2.png',
       },
       darkModeToggle: true,
 
@@ -92,23 +93,25 @@ export default defineAppConfig({
       },
     },
     footer: {
-      credits: 'Made with ❤️ by [**Tony Zhang**](https://github.com/ZTL-UwU/)',
+      credits: ' Universidad de las Ciencias Informáticas, Carretera a San Antonio de los Baños, Km 2 ½, reparto Torrens, municipio Boyeros, La Habana, Cuba.[](https://github.com/ZTL-UwU/)',
+      // sectionTitle: 'Enlaces de interés',
       links: [{
         icon: 'lucide:heart',
         title: 'UCI',
         to: 'https://www.uci.cu/',
         target: '_blank',
       }, {
-        icon: 'lucide:twitter',
-        to: 'https://x.com/ZTL_UwU',
+        icon: 'lucide:facebook',
+        to: 'https://www.facebook.com/dcsw.uci',
         target: '_blank',
       }, {
-        icon: 'lucide-lab:butterfly',
-        to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
+        icon: 'lucide:mail-check',
+        title: 'direccion.calidadsw@gmail.com',
+        to: 'https://mail.google.com/mail/?view=cm&fs=1&to=direccion.calidadsw@gmail.com&su=Consulta%20sobre%20MCDAI&body=Estimado%20Departamento%20de%20Calidad%3A%0D%0A%0D%0A',
         target: '_blank',
       }, {
-        icon: 'lucide:github',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        icon: 'lucide:linkedin',
+        to: 'http://www.linkedin.com/in/dcsw-uci/',
         target: '_blank',
       }],
     },
