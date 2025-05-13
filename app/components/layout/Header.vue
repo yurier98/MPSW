@@ -44,5 +44,5 @@ const showToc = computed(() => {
     <div v-if="showToc" class="lg:hidden">
       <LayoutToc is-small />
     </div>
-  </header>-
+  </header>
 </template>
